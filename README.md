@@ -1,6 +1,6 @@
 # SIYCHA948_CLK2302_GroupOwen_SiyabongaChauke_DWA18_FinalCapstone
 
-## About
+### About
 
 This is a podcast project which will allow users to browse various podcast shows, play episodes, and track their favorite episodes.
 
