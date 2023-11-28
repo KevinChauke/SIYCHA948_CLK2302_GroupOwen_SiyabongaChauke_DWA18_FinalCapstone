@@ -1,5 +1,4 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 import Season from "../components/Season.jsx";
 import SeasonDisplay from "../components/SeasonDisplay.jsx";
 const SHOW_API = "https://podcast-api.netlify.app/id/";
