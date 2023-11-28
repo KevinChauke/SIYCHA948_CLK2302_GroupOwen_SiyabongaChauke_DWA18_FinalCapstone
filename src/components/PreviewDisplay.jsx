@@ -15,7 +15,7 @@ const PreviewDisplay = ({ title, size }) => {
         apidata: {},
     });
 
-// Sorting the shows 
+// Sorting the shows using an if, else statement
     function sortShows(sort) {
         let resortedShows = [];
 
@@ -81,6 +81,7 @@ const PreviewDisplay = ({ title, size }) => {
             });
     }, []);
 
+    // Filter using title
     const addTitle =
         title === "Browse" ? (
             <Sort
@@ -92,7 +93,8 @@ const PreviewDisplay = ({ title, size }) => {
             <h3 className="small--preview-display-title">{title}</h3>
         );
     const type = size ? `${size}--preview` : "preview";
-
+    
+//  if the app is loading data, it should display "Loading"
     return (
         <section>
             {state.isLoading && <div>Loading...</div>}

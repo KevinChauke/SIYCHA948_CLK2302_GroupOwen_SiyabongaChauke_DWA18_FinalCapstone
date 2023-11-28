@@ -4,11 +4,14 @@ import getdate from "../utilities/get.date.js";
 import { GENRES } from "../utilities/genres.js";
 
 
-// This is what the user is going to see when browsing on the website. 
+/*
+This is the preview that the user is going to see when browsing on the website. 
+This is an arrow function that is going to fetch the data that will be displayed on each show on the browsing menu 
+*/
 const Preview = ({ data }) => {
     const date = new Date(data.updated);
     const updatedDate = getdate(date);
-    const genre = data.genres.map((item) => GENRES[item - 1]);
+    const genre = data.genres.map((item) => GENRES[item - 1]); // Fetching the data from an array using ,map
 
     return (
         <Link to={`show/${data.id}`} state={data}>

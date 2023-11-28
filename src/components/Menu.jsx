@@ -10,14 +10,15 @@ const Menu = () => {
 
     return (
         <>
-            <div
+            {/* <div
                 onClick={toggleMenu}
                 className={showMore ? "menu-btn close" : "menu-btn"}
             >
                 <div className="btn-line"></div>
                 <div className="btn-line"></div>
                 <div className="btn-line"></div>
-            </div>
+            </div> */}
+
             <nav className={showMore ? "menu show" : "menu"}>
                 <ul className={showMore ? "menu-nav show" : "menu-nav"}>
                     <li className="account">
@@ -49,7 +50,7 @@ const Menu = () => {
                     </li>
                 </ul>
             </nav>
-            <div className={showMore ? "overlay show" : "overlay"}></div>
+            {/* <div className={showMore ? "overlay show" : "overlay"}></div> */}
         </>
     );
 };
