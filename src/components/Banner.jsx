@@ -6,8 +6,12 @@ import { Link } from "react-router-dom";
 const Banner = () => {
     const date = new Date();
     const hours = date.getHours();
-    const [timeOfDay, setTimeOfDay] = React.useState("");
+    const [timeOfDay, setTimeOfDay] = React.useState("");   
+    /*useState is React Hook that allows you to add state to a functional component. 
+    It returns an array with two values: the current state and a function to update it
+*/
 
+// Arrow function for the date to display during the time a user accesses the website
     React.useEffect(() => {
         if (hours > 4 && hours < 12) {
             setTimeOfDay("morning");
