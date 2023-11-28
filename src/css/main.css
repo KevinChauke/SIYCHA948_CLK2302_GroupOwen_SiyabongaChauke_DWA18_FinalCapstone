@@ -7,18 +7,24 @@
   height: 28px;
   margin-top: 5px;
   transition: all 0.6s ease-out; }
+
   .menu-btn .btn-line {
     width: 24px;
     height: 4px;
     margin-bottom: 5px;
     background: #2a623d;
     transition: all 0.6s ease-out; }
+
   .menu-btn.close {
     transform: rotate(180deg) translate(0, 6px); }
+
+
     .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(7px, 6px); }
+
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
+
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
 
@@ -28,8 +34,10 @@
   width: 100%;
   visibility: hidden;
   z-index: 3; }
+
   .menu.show {
     visibility: visible; }
+
   .menu-nav {
     float: left;
     width: 70%;
@@ -42,6 +50,7 @@
     list-style: none;
     transform: translate3d(-100%, 0, 0);
     transition: all 0.6s ease-out; }
+
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
 
@@ -51,10 +60,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px; }
+
   .nav-item ion-icon {
     margin-right: 5px;
     color: #2b2b2b;
     font-size: 26px; }
+
   .nav-item h4 {
     margin: 0;
     padding: 0; }
@@ -62,9 +73,11 @@
 .account {
   margin: 50px 0 20px 0;
   padding-top: 10px; }
+
   .account .account--user {
     height: 24px;
     margin-bottom: 40px; }
+
     .account .account--user .user {
       font-size: 28px;
       font-weight: 700;
@@ -73,16 +86,19 @@
       padding: 0;
       display: flex;
       align-items: center; }
+
       .account .account--user .user ion-icon {
         margin-right: 5px;
         color: #2b2b2b;
         font-size: 34px; }
+
     .account .account--user button {
       height: 24px;
       color: #fafafa;
       background-color: #2a623d;
       border: none;
       border-radius: 5px; }
+
   .account p {
     font-size: 12px; }
 
@@ -92,30 +108,37 @@
   grid-template-columns: repeat(2, 1fr);
   padding: 0 20px;
   gap: 10px; }
+
   .preview-display a {
     color: #2b2b2b;
     display: flex;
     justify-content: center; }
+
     .preview-display a:visited {
       color: #2b2b2b; }
+
     .preview-display a .preview {
       width: 140px;
       margin-bottom: 10px;
       padding: 0;
       border-radius: 10px; }
+
       .preview-display a .preview .preview--image {
         height: 140px;
         border-radius: 10px; }
+
       .preview-display a .preview .preview--title {
         margin: 0;
         padding: 0;
         font-size: 12px;
         font-weight: 700; }
+
       .preview-display a .preview .preview--details {
         flex-direction: column;
         align-items: start;
         display: flex;
         flex-direction: column; }
+
         .preview-display a .preview .preview--details p {
           margin: 0;
           padding: 0;
@@ -128,8 +151,10 @@
   gap: 16px;
   overflow-x: auto;
   margin-left: 20px; }
+
   .small--preview-display-title {
     margin: 10px 20px; }
+
   .small--preview-display .preview {
     min-width: 120px;
     height: 175px;
@@ -138,14 +163,17 @@
     display: flex;
     flex-direction: column;
     padding: 5px; }
+
     .small--preview-display .preview .preview--image {
       height: 100px;
       border-radius: 10px; }
+
     .small--preview-display .preview .preview--title {
       margin: 0;
       padding: 0;
       font-size: 12px;
       font-weight: 700; }
+
     .small--preview-display .preview .preview--details {
       display: none; }
 
@@ -156,29 +184,34 @@
   padding: 10px 20px;
   display: flex;
   flex-direction: column; }
+
   .banner .greeting {
     font-size: 14px;
     color: #fafafa;
     font-style: italic;
     font-weight: 400; }
+
   .banner .account--user {
     height: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px; }
+
     .banner .account--user .user {
       font-size: 28px;
       font-weight: 700;
       color: #2a8539;
       margin: 0;
       padding: 0; }
+
     .banner .account--user button {
       height: 24px;
       color: #fafafa;
       background-color: #2a623d;
       border: none;
       border-radius: 5px; }
+
   .banner .notify {
     font-size: 12px; }
 
@@ -189,17 +222,21 @@
   z-index: 1;
   background-color: #fafafa;
   margin: 10px 20px 5px 0; }
+
   .browse--filters .filter--form {
     display: flex;
     align-items: center; }
+
     .browse--filters .filter--form h3 {
       margin: 10px 0 8px 20px; }
+
     .browse--filters .filter--form .sort-btn-container {
       display: inline-flex;
       overflow: hidden;
       margin: 0 8px 0 0;
       padding: 0 2px;
       position: relative; }
+
       .browse--filters .filter--form .sort-btn-container .sort-list {
         display: flex;
         align-items: center;
@@ -207,8 +244,10 @@
         padding: 0 8px;
         margin: 0px;
         overflow: scroll; }
+
         .browse--filters .filter--form .sort-btn-container .sort-list::-webkit-scrollbar {
           display: none; }
+
         .browse--filters .filter--form .sort-btn-container .sort-list .sort-btn {
           height: 24px;
           padding: 0px 5px;
@@ -218,11 +257,14 @@
           border-radius: 5px;
           user-select: none;
           white-space: nowrap; }
+
           .browse--filters .filter--form .sort-btn-container .sort-list .sort-btn.active {
             color: #fafafa;
             background-color: #2a623d; }
+
           .browse--filters .filter--form .sort-btn-container .sort-list .sort-btn:hover {
             background-color: #2a8539; }
+
     .browse--filters .filter--form .filters--btn, .browse--filters .filter--form .filter-btns button {
       height: 25px;
       padding: 0px 5px;
@@ -232,6 +274,7 @@
       border-radius: 5px;
       user-select: none;
       white-space: nowrap; }
+
     .browse--filters .filter--form .filter--dialog {
       position: fixed;
       top: 100px;
@@ -241,11 +284,14 @@
       border: none;
       background-color: #fafafa;
       z-index: 3; }
+
       .browse--filters .filter--form .filter--dialog h3 {
         margin: 10px 0; }
+
       .browse--filters .filter--form .filter--dialog .filter-btns {
         display: flex;
         flex-direction: column; }
+
         .browse--filters .filter--form .filter--dialog .filter-btns button {
           margin: 8px 0;
           padding: 5px; }
@@ -268,6 +314,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 10px; }
+
   .select-season .season-btn {
     font-size: 16px;
     width: 100%;
@@ -278,18 +325,23 @@
     display: flex;
     align-items: center;
     background-color: #cccccc; }
+
     .select-season .season-btn h4 {
       width: 30px; }
+      
     .select-season .season-btn .image {
       height: 60px;
       border-radius: 5px; }
+
     .select-season .season-btn .season-info {
       margin: 10px; }
+
       .select-season .season-btn .season-info .season-title, .select-season .season-btn .season-info p {
         margin: 0;
         padding: 0;
         display: flex;
         justify-self: flex-start; }
+
       .select-season .season-btn .season-info p {
         font-size: 12px; }
 
@@ -302,6 +354,7 @@
   top: 0;
   padding: 10px 20px 20px 20px;
   margin: 50px 0 0 0; }
+
   .season-dialog .back-to-season {
     border-radius: 50%;
     height: 26px;
@@ -312,16 +365,21 @@
     display: flex;
     align-items: center;
     justify-content: center; }
+
     .season-dialog .back-to-season ion-icon {
       font-size: 24px; }
+
     .season-dialog .back-to-season:hover {
       background-color: #2a8539; }
+
       .season-dialog .back-to-season:hover ion-icon {
         color: #fafafa; }
+        
   .season-dialog .seasons {
     display: flex;
     gap: 8px;
     padding: 10px 0; }
+
     .season-dialog .seasons .prev-season, .season-dialog .seasons .next-season {
       background-color: #2a623d;
       height: 65px;
@@ -329,9 +387,11 @@
       display: flex;
       align-items: center;
       border-radius: 5px; }
+
       .season-dialog .seasons .prev-season ion-icon, .season-dialog .seasons .next-season ion-icon {
         font-size: 40px;
         color: #cccccc; }
+
   .season-dialog .season-selected {
     font-size: 16px;
     width: 100%;
@@ -343,20 +403,26 @@
     display: flex;
     align-items: center;
     background-color: #cccccc; }
+
     .season-dialog .season-selected h4 {
       width: 30px; }
+
     .season-dialog .season-selected .image {
       height: 60px;
       border-radius: 5px; }
+
     .season-dialog .season-selected .season-info {
       margin: 10px; }
+
       .season-dialog .season-selected .season-info .season-title, .season-dialog .season-selected .season-info p {
         margin: 0;
         padding: 0;
         display: flex;
         justify-self: flex-start; }
+
       .season-dialog .season-selected .season-info p {
         font-size: 12px; }
+
   .season-dialog .episode {
     background-color: #cccccc;
     border-radius: 10px;
@@ -366,19 +432,25 @@
     height: 50px;
     padding: 5px;
     margin-bottom: 10px; }
+
     .season-dialog .episode-title {
       display: flex; }
+
       .season-dialog .episode-title small {
         margin: 0 10px; }
+
       .season-dialog .episode-title h5 {
         margin: 0;
         padding: 0; }
+
     .season-dialog .episode ion-icon {
       font-size: 26px; }
+
   .season-dialog .episodes {
     height: 60vh;
     padding-bottom: 85px;
     overflow-y: scroll; }
+
     .season-dialog .episodes::-webkit-scrollbar {
       visibility: hidden;
       width: 0; }
@@ -391,7 +463,8 @@
   background-color: #2a623d;
   padding: 10px;
   border-radius: 25px;
-  display: flex; }
+  display: flex; } 
+  
   .audio-player button {
     width: 40px;
     border-radius: 50%;
