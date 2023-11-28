@@ -1,5 +1,6 @@
 import React from "react";
 
+// an arrow function called EpisodeDisplay with a parameter name called props
 const EpisodeDisplay = (props) => {
     const { episodes, playEpHandler } = props;
 
