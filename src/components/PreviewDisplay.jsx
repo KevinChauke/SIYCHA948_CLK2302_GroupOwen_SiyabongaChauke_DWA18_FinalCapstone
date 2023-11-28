@@ -2,6 +2,8 @@ import React from "react";
 import Sort from "./Sort.jsx";
 import Preview from "./Preview.jsx";
 import { GENRES } from "../utilities/genres.js";
+
+// Calling the API
 const SHOWS_API = "https://podcast-api.netlify.app/shows";
 
 const PreviewDisplay = ({ title, size }) => {
@@ -13,6 +15,7 @@ const PreviewDisplay = ({ title, size }) => {
         apidata: {},
     });
 
+// Sorting the shows 
     function sortShows(sort) {
         let resortedShows = [];
 
