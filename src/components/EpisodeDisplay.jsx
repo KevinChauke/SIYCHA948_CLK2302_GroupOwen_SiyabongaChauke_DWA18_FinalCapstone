@@ -7,7 +7,7 @@ const EpisodeDisplay = (props) => {
     function play(ep) {
         playEpHandler(ep);
     }
-
+// This will be shown in the episodes menu
     return (
         <div className="select-episode">
             <h3>Episodes: </h3>
@@ -16,12 +16,14 @@ const EpisodeDisplay = (props) => {
                     {episodes.map((episode) => {
                         return (
                             <div
-                                className="episode"
-                                key={episode.title}
+                                className="episode" 
+                                key={episode.title}   // The title of each episode will be shown
                                 onClick={() => {
                                     play(episode);
                                 }}
                             >
+
+                                {/* The play icon will be displayed at the users far right for each  episode */}
                                 <div className="episode-title">
                                     <small>{episode.episode}.</small>
                                     <h5>{episode.title}</h5>
