@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// The Banner 
+
 const Banner = () => {
     const date = new Date();
     const hours = date.getHours();
