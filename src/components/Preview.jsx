@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import getdate from "../utilities/get.date.js";
 import { GENRES } from "../utilities/genres.js";
 
+
+// This is what the user is going to see when browsing on the website. 
 const Preview = ({ data }) => {
     const date = new Date(data.updated);
     const updatedDate = getdate(date);
