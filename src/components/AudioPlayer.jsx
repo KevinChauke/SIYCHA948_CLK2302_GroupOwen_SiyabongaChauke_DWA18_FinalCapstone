@@ -4,7 +4,7 @@ import { calcTime } from "../utilities/calculate.time";
 const AudioPlayer = (props) => {
     const { state } = props;
 
-    // State
+    // Audio State
     const [audState, setAudState] = React.useState({
         isPlaying: false,
         episode: "",
