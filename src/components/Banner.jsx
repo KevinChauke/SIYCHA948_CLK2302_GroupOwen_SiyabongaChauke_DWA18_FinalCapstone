@@ -24,14 +24,17 @@ const Banner = () => {
         }
     }, []);
 
+    //  This will be displayed during the time a user accesses the website
     return (
         <section className="banner">
             <small className="greeting">Good {timeOfDay},</small>
             <div className="account--user">
                 <h2 className="user">Guest</h2>
+
                 <Link to="login">
                     <button>Login/Register</button>
                 </Link>
+                
             </div>
             <small className="notify">
                 Create an account by signing up.
