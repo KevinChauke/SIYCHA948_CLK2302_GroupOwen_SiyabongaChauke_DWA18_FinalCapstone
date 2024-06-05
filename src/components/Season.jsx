@@ -1,6 +1,7 @@
 import React from "react";
 import EpisodeDisplay from "./EpisodeDisplay.jsx";
 
+// an arrow function called seasons.
 const Season = (props) => {
     const {
         state,
@@ -41,6 +42,7 @@ const Season = (props) => {
                             <h5 className="season-title">{season.title}</h5>
                         </div>
                     </button>
+                    
                     {showNextBtn && (
                         <div
                             className="next-season"

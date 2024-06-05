@@ -1,5 +1,6 @@
 import React from "react";
 
+// arrow function to fetch the seasons
 const SeasonDisplay = (props) => {
     const { state, openHandler } = props;
     return (
